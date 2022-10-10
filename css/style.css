@@ -198,6 +198,10 @@ h6 {
   font-family: "Staatliches", "Gill Sans MT", Calibri, "Trebuchet MS",
     sans-serif;
 }
+.articles-list li {
+  list-style: inside;
+  margin-bottom: 10px;
+}
 #main-nav ul {
   justify-self: end;
   display: flex;
@@ -244,7 +248,7 @@ h6 {
   grid-template-columns: repeat(2, 1fr);
   justify-content: center;
   align-items: center;
-  height: 50vh;
+  height: 60vh;
 }
 #showcase .showcase-content {
   z-index: 1;
@@ -292,7 +296,7 @@ h6 {
 }
 #main-footer .footer-container {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   gap: 1.5rem;
 }
 #main-footer .footer-container > *:last-child {
